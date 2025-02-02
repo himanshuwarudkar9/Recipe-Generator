@@ -8,27 +8,35 @@ import asyncio
 # Custom CSS to set the background image
 background_css = """
     <style>
-        .main {
-            background-image: url("https://i.pinimg.com/736x/13/20/49/1320494d508b9da8ff0e8c1447732eea.jpg");  /* Update with your image URL */
+        /* Apply background to the entire page */
+        .stApp {
+            background: url("https://i.pinimg.com/736x/13/20/49/1320494d508b9da8ff0e8c1447732eea.jpg") no-repeat center center fixed;
             background-size: cover;
-            background-position: center center;
-            background-repeat: no-repeat;
-            height: 100vh;
         }
+        
+        /* Style text input fields */
         .stTextInput>div>div>input {
-            background-color: rgba(255, 255, 255, 0.7);  /* Light background for text input */
+            background-color: rgba(255, 255, 255, 0.7);  
             color: black;
         }
+        
+        /* Style select box */
         .stSelectbox>div>div>input {
-            background-color: rgba(255, 255, 255, 0.7);  /* Light background for select box */
+            background-color: rgba(255, 255, 255, 0.7);  
             color: black;
         }
+        
+        /* Style buttons */
         .stButton>button {
             background-color: #ff7f50;
             color: white;
+            border-radius: 8px;
         }
-        .stMarkdown {
-            font-size: 20px;
+
+        /* Improve readability of text */
+        .stMarkdown, .stTitle, .stHeader, .stSubheader {
+            color: white;  /* Ensures text remains readable */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
     </style>
 """
