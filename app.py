@@ -4,7 +4,7 @@ from googletrans import Translator  # For translation (optional)
 import asyncio
 
 # Set background image URL (change it to your preferred image URL or local image path)
-background_image_url = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fpremium-photo%2Fbig-set-vegetables-fruits-berries-food-black-stone-background-free-space-text-top-view_24500697.htm&psig=AOvVaw0d0TPr2qcufFiNM6cCCAMX&ust=1738595012205000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNixuqWhpYsDFQAAAAAdAAAAABAE"  # Replace with your image URL
+background_image_url = "https://i.pinimg.com/736x/13/20/49/1320494d508b9da8ff0e8c1447732eea.jpg"  # Replace with your image URL
 
 # Custom CSS to set the background image
 background_css = f"""
