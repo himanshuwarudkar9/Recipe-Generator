@@ -6,10 +6,10 @@ import asyncio
 # Set background image URL (change it to your preferred image URL or local image path)
 
 # Custom CSS to set the background image
-st.markdown("""
+background_css = """
     <style>
         .main {
-            background-image: url('https://i.pinimg.com/736x/13/20/49/1320494d508b9da8ff0e8c1447732eea.jpg');
+            background-image: url('https://i.pinimg.com/736x/13/20/49/1320494d508b9da8ff0e8c1447732eea.jpg');  /* Update with your image URL */
             background-size: cover;
             color: white;
             font-family: 'Arial', sans-serif;
@@ -31,7 +31,10 @@ st.markdown("""
             font-size: 20px;
         }
     </style>
-""", unsafe_allow_html=True)
+"""
+
+# Inject the CSS into the Streamlit app
+st.markdown(background_css, unsafe_allow_html=True)
 
 # Inject the custom CSS into the Streamlit app
 st.markdown(background_css, unsafe_allow_html=True)
