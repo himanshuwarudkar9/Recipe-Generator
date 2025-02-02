@@ -8,7 +8,7 @@ background_image_url = "https://i.pinimg.com/736x/13/20/49/1320494d508b9da8ff0e8
 
 # Custom CSS to set the background image
 background_css = f"""
-    <style>
+    <style>  
         .stApp {{
             background-image: url("{background_image_url}");
             background-size: cover;
