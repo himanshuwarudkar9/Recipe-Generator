@@ -4,20 +4,34 @@ from googletrans import Translator  # For translation (optional)
 import asyncio
 
 # Set background image URL (change it to your preferred image URL or local image path)
-background_image_url = "https://i.pinimg.com/736x/13/20/49/1320494d508b9da8ff0e8c1447732eea.jpg"  # Replace with your image URL
 
 # Custom CSS to set the background image
-background_css = f"""
-    <style>  
-        .stApp {{
-            background-image: url("{background_image_url}");
+st.markdown("""
+    <style>
+        .main {
+            background-image: url('https://i.pinimg.com/736x/13/20/49/1320494d508b9da8ff0e8c1447732eea.jpg');
             background-size: cover;
-            background-position: center center;
-            background-repeat: no-repeat;
-            height: 100vh;
-        }}
+            color: white;
+            font-family: 'Arial', sans-serif;
+            padding: 20px;
+        }
+        .stTextInput>div>div>input {
+            background-color: rgba(255, 255, 255, 0.7);  /* Light background for text input */
+            color: black;
+        }
+        .stSelectbox>div>div>input {
+            background-color: rgba(255, 255, 255, 0.7);  /* Light background for select box */
+            color: black;
+        }
+        .stButton>button {
+            background-color: #ff7f50;
+            color: white;
+        }
+        .stMarkdown {
+            font-size: 20px;
+        }
     </style>
-"""
+""", unsafe_allow_html=True)
 
 # Inject the custom CSS into the Streamlit app
 st.markdown(background_css, unsafe_allow_html=True)
