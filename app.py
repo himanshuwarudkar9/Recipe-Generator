@@ -36,9 +36,6 @@ background_css = """
 # Inject the CSS into the Streamlit app
 st.markdown(background_css, unsafe_allow_html=True)
 
-# Inject the custom CSS into the Streamlit app
-st.markdown(background_css, unsafe_allow_html=True)
-
 # Load API key securely from Streamlit secrets
 GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]
 genai.configure(api_key=GOOGLE_API_KEY)
