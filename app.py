@@ -11,9 +11,9 @@ background_css = """
         .main {
             background-image: url("https://i.pinimg.com/736x/13/20/49/1320494d508b9da8ff0e8c1447732eea.jpg");  /* Update with your image URL */
             background-size: cover;
-            color: white;
-            font-family: 'Arial', sans-serif;
-            padding: 20px;
+            background-position: center center;
+            background-repeat: no-repeat;
+            height: 100vh;
         }
         .stTextInput>div>div>input {
             background-color: rgba(255, 255, 255, 0.7);  /* Light background for text input */
