@@ -13,7 +13,7 @@ background_css = """
     <style>
         /* Apply background to the entire page */
         .stApp {
-            background: url("assets/ripe-products-colored-vitamine-riched-salad-vegetables-dark-floor.jpg") no-repeat center center fixed;
+            background: url("assests/ripe-products-colored-vitamine-riched-salad-vegetables-dark-floor.jpg") no-repeat center center fixed;
             background-size: cover;
         }
         
