@@ -2,7 +2,10 @@ import streamlit as st
 import google.generativeai as genai
 from googletrans import Translator  # For translation (optional)
 import asyncio
-
+# Function to get the base64 string of the image
+def get_base64_image(image_path):
+    with open(image_path, "rb") as img_file:
+        return base64.b64encode(img_file.read()).decode()
 # Set background image URL (change it to your preferred image URL or local image path)
 image_base64 = get_base64_image("assets/ripe-products-colored-vitamine-riched-salad-vegetables-dark-floor.jpg")  # Path to your image
 # Custom CSS to set the background image
