@@ -14,7 +14,7 @@ background_css = f"""
     <style>
         /* Apply background to the entire page */
         .stApp {
-            background: url("data:image/jpg;base64,{image_base64}") no-repeat center center fixed;
+            background: url("data:image/jpeg;base64,{image_base64}") no-repeat center center fixed;
             background-size: cover;
         }
         
