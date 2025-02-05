@@ -7,7 +7,7 @@ Welcome to the **AI-Powered Recipe Generator**! This project leverages the **Goo
 - **AI Model**: Powered by the Google Gemini AI model (`gemini-2.0-flash-exp`).
 - **Translation**: Optionally translate recipes to different languages using Google Translate.
 
-You can visit the app directly [here](https://your-app-link.com).
+You can visit the app directly [here](https://himanshu-recipe-generator.streamlit.app/).
 
 ## Project Setup
 
@@ -44,7 +44,7 @@ Add your Google API key under GOOGLE_API_KEY.
 streamlit run app.py
 
 ## How It Works
-Recipe Generation
+### Recipe Generation
 
 The application uses Google Gemini AI to generate recipes based on the ingredients you provide. The process involves:
 
@@ -56,34 +56,34 @@ The application uses Google Gemini AI to generate recipes based on the ingredien
 - Cooking time
 - Serving size
 - Regional variations (optional)
-- Language Support
-- Recipes can be translated into the following languages:
+- 
+### Language Support
+Recipes can be translated into the following languages:
+- English
+- Hindi
+- Telugu
 
-English
-Hindi
-Telugu
-Code Structure
-app.py
-Main file where the Streamlit app runs.
-Handles recipe generation, translation, and UI rendering.
-requirements.txt
+## Code Structure
+### app.py
+- Main file where the Streamlit app runs.
+- Handles recipe generation, translation, and UI rendering.
+### requirements.txt
 Contains all the dependencies required for the project.
-streamlit
-google-generativeai
-googletrans==4.0.0-rc1
-base64
-assets/
-This directory contains the images used in the app (background image, etc.).
-README.md
-This file. Contains project information and instructions.
-Contributing
+- streamlit
+- google-generativeai
+- googletrans==4.0.0-rc1
+### README.md
+- This file. Contains project information and instructions.
+
+## Contributing
 We welcome contributions to this project! To contribute:
 
-Fork the repository.
-Create a new branch.
-Make changes and commit them.
-Open a Pull Request for review.
-License
+- Fork the repository.
+- Create a new branch.
+- Make changes and commit them.
+- Open a Pull Request for review.
+  
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
