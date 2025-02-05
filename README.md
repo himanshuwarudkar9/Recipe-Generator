@@ -48,16 +48,16 @@ Recipe Generation
 
 The application uses Google Gemini AI to generate recipes based on the ingredients you provide. The process involves:
 
-User inputs ingredients in a comma-separated list.
-The AI generates an authentic Indian recipe, including:
-Recipe name
-Ingredients list (with spices)
-Cooking instructions
-Cooking time
-Serving size
-Regional variations (optional)
-Language Support
-Recipes can be translated into the following languages:
+1. User inputs ingredients in a comma-separated list.
+2. The AI generates an authentic Indian recipe, including:
+- Recipe name
+- Ingredients list (with spices)
+- Cooking instructions
+- Cooking time
+- Serving size
+- Regional variations (optional)
+- Language Support
+- Recipes can be translated into the following languages:
 
 English
 Hindi
