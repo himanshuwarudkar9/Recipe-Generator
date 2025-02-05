@@ -2,6 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 from googletrans import Translator  # For translation (optional)
 import asyncio
+import base64
 # Function to get the base64 string of the image
 def get_base64_image(image_path):
     with open(image_path, "rb") as img_file:
