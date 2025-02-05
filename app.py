@@ -5,6 +5,9 @@ import asyncio
 import base64
 # Function to get the base64 string of the image
 def get_base64_image(image_path):
+    if not os.path.exists(image_path):
+        st.error(f"Image file not found: {image_path}")
+        return None
     with open(image_path, "rb") as img_file:
         return base64.b64encode(img_file.read()).decode()
 # Set background image URL (change it to your preferred image URL or local image path)
