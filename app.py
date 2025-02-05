@@ -3,6 +3,7 @@ import google.generativeai as genai
 from googletrans import Translator  # For translation (optional)
 import asyncio
 import base64
+import os
 # Function to get the base64 string of the image
 def get_base64_image(image_path):
     if not os.path.exists(image_path):
