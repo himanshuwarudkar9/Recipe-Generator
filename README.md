@@ -21,27 +21,27 @@ To run this project, you need to have the following installed:
 ## Installation Steps
 1. Clone the repository:
    
-git clone https://github.com/your-username/recipe-generator.git
-cd recipe-generator
+- git clone https://github.com/your-username/recipe-generator.git
+- cd recipe-generator
 
 2. Create and activate a virtual environment:
 
-python3 -m venv venv
-source venv/bin/activate  # For macOS/Linux
-.\venv\Scripts\activate   # For Windows
+- python3 -m venv venv
+- source venv/bin/activate  For macOS/Linux
+- .\venv\Scripts\activate   For Windows
 
 3. Install the required dependencies:
 
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 4. Set up Streamlit secrets for API keys:
 
-Go to Streamlit → Settings → Secrets Management.
-Add your Google API key under GOOGLE_API_KEY.
+- Go to Streamlit → Settings → Secrets Management.
+- Add your Google API key under GOOGLE_API_KEY.
 
 5. Run the app:
    
-streamlit run app.py
+- streamlit run app.py
 
 ## How It Works
 ### Recipe Generation
@@ -56,7 +56,7 @@ The application uses Google Gemini AI to generate recipes based on the ingredien
 - Cooking time
 - Serving size
 - Regional variations (optional)
-- 
+  
 ### Language Support
 Recipes can be translated into the following languages:
 - English
