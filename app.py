@@ -14,7 +14,7 @@ def get_base64_image(image_path):
 # Set background image URL (change it to your preferred image URL or local image path)
 image_base64 = get_base64_image("assets/ripe-products-colored-vitamine-riched-salad-vegetables-dark-floor.jpg")  # Path to your image
 # Custom CSS to set the background image
-background_css = f"""
+background_css = """
     <style>
         /* Apply background to the entire page */
         .stApp {
