@@ -4,13 +4,13 @@ from googletrans import Translator  # For translation (optional)
 import asyncio
 
 # Set background image URL (change it to your preferred image URL or local image path)
-
+image_base64 = get_base64_image("assets/ripe-products-colored-vitamine-riched-salad-vegetables-dark-floor.jpg")  # Path to your image
 # Custom CSS to set the background image
 background_css = """
     <style>
         /* Apply background to the entire page */
         .stApp {
-            background: url("https://img.freepik.com/premium-photo/fresh-vegetables-black-background-vegetarian-food-top-view-free-space-your-text_187166-29310.jpg") no-repeat center center fixed;
+            background: url("data:image/jpg;base64,{image_base64}") no-repeat center center fixed;
             background-size: cover;
         }
         
