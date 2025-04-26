@@ -1,6 +1,9 @@
 # AI-Powered Recipe Generator
 Welcome to the **AI-Powered Recipe Generator**! This project leverages the **Google Gemini AI** model to generate unique recipes based on user-provided ingredients. It offers real-time recipe suggestions and allows users to translate the recipe into different languages.
 
+![Screenshot 2025-04-26 124736](https://github.com/user-attachments/assets/eb6dc807-0090-4b71-b848-1af0f383a379)
+
+
 ## Features:
 - **Recipe Generation**: AI generates authentic Indian recipes based on ingredients.
 - **Language Support**: Recipe output can be generated in multiple languages (English, Hindi, Telugu).
